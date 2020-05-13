@@ -11,7 +11,7 @@
 
 #import "MainViewController+MusicControls.h"
 
-@implementation MainViewController (MusicControls)
+@implementation UIViewController (MusicControls)
 
 - (void) remoteControlReceivedWithEvent: (UIEvent *) receivedEvent {
     [[NSNotificationCenter defaultCenter] postNotificationName:@"musicControlsEventNotification" object:receivedEvent];

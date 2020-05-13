@@ -9,9 +9,9 @@
 #ifndef MainViewController_MusicControls_h
 #define MainViewController_MusicControls_h
 
-#import "MainViewController.h"
+#import "MainViewController+MusicControls.h"
 
-@interface MainViewController (MusicControls)
+@interface UIViewController (MusicControls)
 
 @end
 
